@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/designhorf/designhorf.git"
   },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
   "keywords": [
     "designhorf",
     "front-end",
@@ -20,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/designhorf/designhorf/issues"
   },
-  "homepage": "https://github.com/designhorf/designhorf#readme"
+  "homepage": "https://github.com/designhorf/designhorf#readme",
 }
