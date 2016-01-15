@@ -1,0 +1,24 @@
+{
+  "name": "designhorf",
+  "version": "1.0.0",
+  "description": "basic website for my works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designhorf/designhorf.git"
+  },
+  "keywords": [
+    "designhorf",
+    "front-end",
+    "design"
+  ],
+  "author": "Ferenc Horvath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/designhorf/designhorf/issues"
+  },
+  "homepage": "https://github.com/designhorf/designhorf#readme"
+}
