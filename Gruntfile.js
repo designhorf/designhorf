@@ -11,6 +11,7 @@ module.exports = function(grunt) {
 					'images/**/*.png',
 					'images/**/*.svg',
 					'images/**/*.ico',
+					'fonts/**/*'
 				],
 				dest: 'assets/',
 			},
