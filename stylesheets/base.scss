@@ -3,6 +3,12 @@
 	padding: 0;
 }
 
+a {
+	border: 0;
+	outline: none;
+}
+
+$black: #000;
 $white: #fff;
 
 html,
@@ -48,10 +54,22 @@ body {
 		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: space-between;
+		margin-top: 30px;
 
 		&-name {
 			font-size: 1.2em;
 			text-transform: uppercase;
+		}
+
+		.photo {
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+		}
+
+		.my-photos {
+			font-size: .6em;
 		}
 	}
 
@@ -72,12 +90,22 @@ body {
 
 	}
 
-	.works {
-		.my-works {
-			background-color: transparent;
-			border: 3px solid $white;
-			color: $white;
-			font-family: 'ProximaNovaXtraBold', sans-serif;
+	.my-works {
+		background-color: transparent;
+		border: 3px solid $white;
+		color: $white;
+		font-family: 'ProximaNovaXtraBold', sans-serif;
+		outline: none;
+
+		&:hover {
+			background-color: $white;
+			color: $black;
+			cursor: pointer;
 		}
+	}
+
+	.btn-text {
+		font-size: 1.9em;
+		margin: 20px 40px;
 	}
 }
