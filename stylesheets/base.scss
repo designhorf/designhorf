@@ -3,7 +3,48 @@
 	padding: 0;
 }
 
+$white: #fff;
+
+html,
+body,
+.wrap {
+	height: 100%;
+}
+
+html {
+	color: $white;
+}
+
 body {
 	background: url('./../images/bg.jpg') center no-repeat fixed;
 	background-size: cover;
+}
+
+.wrap {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 90%;
+
+	.header {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+
+	.main {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.works {
+		.my-works {
+			background-color: transparent;
+			border: 3px solid $white;
+			color: $white;
+		}
+	}
 }
