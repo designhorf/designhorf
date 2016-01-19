@@ -45,54 +45,61 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: space-between;
+	justify-content: center;
 	margin: 0 auto;
 	width: 90%;
+}
 
-	.header,
-	.sm-wrap {
+.header,
+.sm-wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.header {
+	justify-content: space-between;
+	position: absolute;
+	top: 30px;
+	width: inherit;
+
+	&-name {
+		font-size: 1.2em;
+		text-transform: uppercase;
+	}
+
+	.photo {
+		align-items: center;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		flex-wrap: nowrap;
 	}
 
-	.header {
-		justify-content: space-between;
-		margin-top: 30px;
+	.my-photos {
+		font-size: .6em;
+	}
+}
 
-		&-name {
-			font-size: 1.2em;
-			text-transform: uppercase;
-		}
+.main {
+	margin: 0 auto 60px;
+	text-align: center;
 
-		.photo {
-			align-items: center;
-			display: flex;
-			flex-direction: column;
-			flex-wrap: nowrap;
-		}
-
-		.my-photos {
-			font-size: .6em;
-		}
+	h1 {
+		font-family: 'ProximaNovaXtraBold', sans-serif;
+		font-size: 4.5em;
 	}
 
-	.main {
-		margin: 0 auto;
-		text-align: center;
-
-		h1 {
-			font-family: 'ProximaNovaXtraBold', sans-serif;
-			font-size: 4.5em;
-		}
-
-		h3 {
-			color: darken($white, 20%);
-			font-size: 1.9em;
-			margin: 20px auto;
-		}
-
+	h3 {
+		color: darken($white, 20%);
+		font-size: 1.9em;
+		margin: 10px auto 0;
 	}
+}
+
+
+.works {
+	margin-bottom: 30px;
+	text-align: center;
 
 	.my-works {
 		background-color: transparent;
@@ -112,12 +119,13 @@ body {
 		font-size: 1.9em;
 		margin: 20px 40px;
 	}
+}
 
-	.sm-wrap {
-		justify-content: center;
 
-		.sm-icon {
-			margin: 0 15px;
-		}
+.sm-wrap {
+	justify-content: center;
+
+	.sm-icon {
+		margin: 0 15px;
 	}
 }
