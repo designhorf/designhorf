@@ -42,7 +42,8 @@ body {
           justify-content: space-between;
   margin: 0 auto;
   width: 90%; }
-  .wrap .header {
+  .wrap .header,
+  .wrap .sm-wrap {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -51,7 +52,8 @@ body {
             flex-direction: row;
     -webkit-flex-wrap: nowrap;
         -ms-flex-wrap: nowrap;
-            flex-wrap: nowrap;
+            flex-wrap: nowrap; }
+  .wrap .header {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -97,3 +99,9 @@ body {
   .wrap .btn-text {
     font-size: 1.9em;
     margin: 20px 40px; }
+  .wrap .sm-wrap {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .wrap .sm-wrap .sm-icon {
+      margin: 0 15px; }

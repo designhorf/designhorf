@@ -49,10 +49,14 @@ body {
 	margin: 0 auto;
 	width: 90%;
 
-	.header {
+	.header,
+	.sm-wrap {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
+	}
+
+	.header {
 		justify-content: space-between;
 		margin-top: 30px;
 
@@ -107,5 +111,13 @@ body {
 	.btn-text {
 		font-size: 1.9em;
 		margin: 20px 40px;
+	}
+
+	.sm-wrap {
+		justify-content: center;
+
+		.sm-icon {
+			margin: 0 15px;
+		}
 	}
 }
