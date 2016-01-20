@@ -84,7 +84,13 @@ body {
 .main {
   margin: 0 auto 60px;
   text-align: center; }
-  @media (min-width: 1440px) and (max-width: 1900px) {
+  @media (max-width: 600px) {
+    .main {
+      margin-bottom: 35px; } }
+  @media (min-width: 600px) and (max-width: 800px) {
+    .main {
+      margin-bottom: 40px; } }
+  @media (min-width: 1600px) and (max-width: 1900px) {
     .main {
       margin-bottom: 80px; } }
   @media (min-width: 1900px) {
@@ -93,7 +99,13 @@ body {
   .main h1 {
     font-family: 'ProximaNovaXtraBold', sans-serif;
     font-size: 4.5em; }
-    @media (min-width: 1440px) and (max-width: 1900px) {
+    @media (max-width: 600px) {
+      .main h1 {
+        font-size: 2.5em; } }
+    @media (min-width: 600px) and (max-width: 800px) {
+      .main h1 {
+        font-size: 3.5em; } }
+    @media (min-width: 1600px) and (max-width: 1900px) {
       .main h1 {
         font-size: 7em; } }
     @media (min-width: 1900px) {
@@ -103,7 +115,13 @@ body {
     color: #cccccc;
     font-size: 1.9em;
     margin: 10px auto 0; }
-    @media (min-width: 1440px) and (max-width: 1900px) {
+    @media (max-width: 600px) {
+      .main h3 {
+        font-size: 1.2em; } }
+    @media (min-width: 600px) and (max-width: 800px) {
+      .main h3 {
+        font-size: 1.47em; } }
+    @media (min-width: 1600px) and (max-width: 1900px) {
       .main h3 {
         font-size: 2.9em; } }
     @media (min-width: 1900px) {
@@ -113,7 +131,7 @@ body {
 .works {
   margin-bottom: 30px;
   text-align: center; }
-  @media (min-width: 1440px) and (max-width: 1900px) {
+  @media (min-width: 1600px) and (max-width: 1900px) {
     .works {
       margin-bottom: 40px; } }
   @media (min-width: 1900px) {
@@ -129,7 +147,7 @@ body {
       background-color: #fff;
       color: #000;
       cursor: pointer; }
-    @media (min-width: 1440px) and (max-width: 1900px) {
+    @media (min-width: 1600px) and (max-width: 1900px) {
       .works .my-works {
         border-width: 4px; } }
     @media (min-width: 1900px) {
@@ -138,7 +156,10 @@ body {
   .works .btn-text {
     font-size: 1.9em;
     margin: 20px 40px; }
-    @media (min-width: 1440px) and (max-width: 1900px) {
+    @media (max-width: 800px) {
+      .works .btn-text {
+        font-size: 1.47em; } }
+    @media (min-width: 1600px) and (max-width: 1900px) {
       .works .btn-text {
         font-size: 2.9em; } }
     @media (min-width: 1900px) {
@@ -151,7 +172,7 @@ body {
           justify-content: center; }
   .sm-wrap .sm-icon {
     margin: 0 15px; }
-    @media (min-width: 1440px) and (max-width: 1900px) {
+    @media (min-width: 1600px) and (max-width: 1900px) {
       .sm-wrap .sm-icon {
         margin: 0 20px; } }
     @media (min-width: 1900px) {
@@ -160,7 +181,7 @@ body {
   .sm-wrap .twitter-icon {
     height: 29px;
     width: 35px; }
-    @media (min-width: 1440px) and (max-width: 1900px) {
+    @media (min-width: 1600px) and (max-width: 1900px) {
       .sm-wrap .twitter-icon {
         height: 46.4px;
         width: 56px; } }
@@ -171,7 +192,7 @@ body {
   .sm-wrap .insta-icon {
     height: 30px;
     width: 30px; }
-    @media (min-width: 1440px) and (max-width: 1900px) {
+    @media (min-width: 1600px) and (max-width: 1900px) {
       .sm-wrap .insta-icon {
         height: 48px;
         width: 48px; } }
@@ -182,7 +203,7 @@ body {
   .sm-wrap .github-icon {
     height: 28px;
     width: 28px; }
-    @media (min-width: 1440px) and (max-width: 1900px) {
+    @media (min-width: 1600px) and (max-width: 1900px) {
       .sm-wrap .github-icon {
         height: 44.8px;
         width: 44.8px; } }
