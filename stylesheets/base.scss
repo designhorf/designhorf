@@ -1,3 +1,4 @@
+@import 'modules/breakpoints';
 @import 'modules/colours';
 
 * {
@@ -57,6 +58,7 @@ body {
 }
 
 .header {
+	display: none;
 	justify-content: space-between;
 	position: absolute;
 	top: 30px;
@@ -69,9 +71,9 @@ body {
 
 	.photo {
 		align-items: center;
-		display: flex;
+		display: inherit;
 		flex-direction: column;
-		flex-wrap: nowrap;
+		flex-wrap: inherit;
 	}
 
 	.my-photos {
@@ -83,22 +85,53 @@ body {
 	margin: 0 auto 60px;
 	text-align: center;
 
+	@media (min-width: $desktop) and (max-width: $wide-desktop) {
+		margin-bottom: 80px;
+	}
+
+	@media (min-width: $wide-desktop) {
+		margin-bottom: 90px;
+	}
+
 	h1 {
 		font-family: 'ProximaNovaXtraBold', sans-serif;
 		font-size: 4.5em;
+
+		@media (min-width: $desktop) and (max-width: $wide-desktop) {
+			font-size: 7em;
+		}
+
+		@media (min-width: $wide-desktop) {
+			font-size: 9em;
+		}
 	}
 
 	h3 {
 		color: darken($white, 20%);
 		font-size: 1.9em;
 		margin: 10px auto 0;
+
+		@media (min-width: $desktop) and (max-width: $wide-desktop) {
+			font-size: 2.9em;
+		}
+
+		@media (min-width: $wide-desktop) {
+			font-size: 3.8em;
+		}
 	}
 }
-
 
 .works {
 	margin-bottom: 30px;
 	text-align: center;
+
+	@media (min-width: $desktop) and (max-width: $wide-desktop) {
+		margin-bottom: 40px;
+	}
+
+	@media (min-width: $wide-desktop) {
+		margin-bottom: 47px;
+	}
 
 	.my-works {
 		background-color: transparent;
@@ -112,19 +145,87 @@ body {
 			color: $black;
 			cursor: pointer;
 		}
+
+		@media (min-width: $desktop) and (max-width: $wide-desktop) {
+			border-width: 4px;
+		}
+
+		@media (min-width: $wide-desktop) {
+			border-width: 5px;
+		}
 	}
 
 	.btn-text {
 		font-size: 1.9em;
 		margin: 20px 40px;
+
+		@media (min-width: $desktop) and (max-width: $wide-desktop) {
+			font-size: 2.9em;
+		}
+
+		@media (min-width: $wide-desktop) {
+			font-size: 3.8em;
+		}
 	}
 }
-
 
 .sm-wrap {
 	justify-content: center;
 
 	.sm-icon {
 		margin: 0 15px;
+
+		@media (min-width: $desktop) and (max-width: $wide-desktop) {
+			margin: 0 20px;
+		}
+
+		@media (min-width: $wide-desktop) {
+			margin: 0 25px;
+		}
+	}
+
+	.twitter-icon {
+		height: 29px;
+		width: 35px;
+
+		@media (min-width: $desktop) and (max-width: $wide-desktop) {
+			height: 46.4px;
+			width: 56px;
+		}
+
+		@media (min-width: $wide-desktop) {
+			height: 51.1px;
+			width: 66.5px;
+		}
+	}
+
+	.insta-icon {
+		height: 30px;
+		width: 30px;
+
+		@media (min-width: $desktop) and (max-width: $wide-desktop) {
+			height: 48px;
+			width: 48px;
+		}
+
+		@media (min-width: $wide-desktop) {
+			height: 57px;
+			width: 57px;
+		}
+	}
+
+	.github-icon {
+		height: 28px;
+		width: 28px;
+
+		@media (min-width: $desktop) and (max-width: $wide-desktop) {
+			height: 44.8px;
+			width: 44.8px;
+		}
+
+		@media (min-width: $wide-desktop) {
+			height: 53.2px;
+			width: 53.2px;
+		}
 	}
 }

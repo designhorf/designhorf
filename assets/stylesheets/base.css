@@ -56,6 +56,7 @@ body {
           flex-wrap: nowrap; }
 
 .header {
+  display: none;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -68,33 +69,56 @@ body {
   .header .photo {
     -webkit-align-items: center;
         -ms-flex-align: center;
+                -ms-grid-row-align: center;
             align-items: center;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: inherit;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-flex-wrap: nowrap;
-        -ms-flex-wrap: nowrap;
-            flex-wrap: nowrap; }
+    -webkit-flex-wrap: inherit;
+        -ms-flex-wrap: inherit;
+            flex-wrap: inherit; }
   .header .my-photos {
     font-size: .6em; }
 
 .main {
   margin: 0 auto 60px;
   text-align: center; }
+  @media (min-width: 1440px) and (max-width: 1900px) {
+    .main {
+      margin-bottom: 80px; } }
+  @media (min-width: 1900px) {
+    .main {
+      margin-bottom: 90px; } }
   .main h1 {
     font-family: 'ProximaNovaXtraBold', sans-serif;
     font-size: 4.5em; }
+    @media (min-width: 1440px) and (max-width: 1900px) {
+      .main h1 {
+        font-size: 7em; } }
+    @media (min-width: 1900px) {
+      .main h1 {
+        font-size: 9em; } }
   .main h3 {
     color: #cccccc;
     font-size: 1.9em;
     margin: 10px auto 0; }
+    @media (min-width: 1440px) and (max-width: 1900px) {
+      .main h3 {
+        font-size: 2.9em; } }
+    @media (min-width: 1900px) {
+      .main h3 {
+        font-size: 3.8em; } }
 
 .works {
   margin-bottom: 30px;
   text-align: center; }
+  @media (min-width: 1440px) and (max-width: 1900px) {
+    .works {
+      margin-bottom: 40px; } }
+  @media (min-width: 1900px) {
+    .works {
+      margin-bottom: 47px; } }
   .works .my-works {
     background-color: transparent;
     border: 3px solid #fff;
@@ -105,9 +129,21 @@ body {
       background-color: #fff;
       color: #000;
       cursor: pointer; }
+    @media (min-width: 1440px) and (max-width: 1900px) {
+      .works .my-works {
+        border-width: 4px; } }
+    @media (min-width: 1900px) {
+      .works .my-works {
+        border-width: 5px; } }
   .works .btn-text {
     font-size: 1.9em;
     margin: 20px 40px; }
+    @media (min-width: 1440px) and (max-width: 1900px) {
+      .works .btn-text {
+        font-size: 2.9em; } }
+    @media (min-width: 1900px) {
+      .works .btn-text {
+        font-size: 3.8em; } }
 
 .sm-wrap {
   -webkit-justify-content: center;
@@ -115,3 +151,42 @@ body {
           justify-content: center; }
   .sm-wrap .sm-icon {
     margin: 0 15px; }
+    @media (min-width: 1440px) and (max-width: 1900px) {
+      .sm-wrap .sm-icon {
+        margin: 0 20px; } }
+    @media (min-width: 1900px) {
+      .sm-wrap .sm-icon {
+        margin: 0 25px; } }
+  .sm-wrap .twitter-icon {
+    height: 29px;
+    width: 35px; }
+    @media (min-width: 1440px) and (max-width: 1900px) {
+      .sm-wrap .twitter-icon {
+        height: 46.4px;
+        width: 56px; } }
+    @media (min-width: 1900px) {
+      .sm-wrap .twitter-icon {
+        height: 51.1px;
+        width: 66.5px; } }
+  .sm-wrap .insta-icon {
+    height: 30px;
+    width: 30px; }
+    @media (min-width: 1440px) and (max-width: 1900px) {
+      .sm-wrap .insta-icon {
+        height: 48px;
+        width: 48px; } }
+    @media (min-width: 1900px) {
+      .sm-wrap .insta-icon {
+        height: 57px;
+        width: 57px; } }
+  .sm-wrap .github-icon {
+    height: 28px;
+    width: 28px; }
+    @media (min-width: 1440px) and (max-width: 1900px) {
+      .sm-wrap .github-icon {
+        height: 44.8px;
+        width: 44.8px; } }
+    @media (min-width: 1900px) {
+      .sm-wrap .github-icon {
+        height: 53.2px;
+        width: 53.2px; } }
