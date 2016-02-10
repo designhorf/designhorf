@@ -20,6 +20,7 @@ body,
   src: url("./../fonts/proximanova-extrabold-webfont.woff2") format("woff2"), url("./../fonts/proximanova-extrabold-webfont.woff") format("woff"), url("./../fonts/proximanova-extrabold-webfont.ttf") format("truetype"); }
 
 html {
+  background-color: #3a4765;
   color: #fff;
   font-family: 'ProximaNova', sans-serif; }
 

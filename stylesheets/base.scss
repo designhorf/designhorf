@@ -6,6 +6,8 @@
 	padding: 0;
 }
 
+$dark-blue: #3a4765;
+
 a {
 	border: 0;
 	outline: none;
@@ -32,6 +34,7 @@ body,
 }
 
 html {
+	background-color: $dark-blue;
 	color: $white;
 	font-family: 'ProximaNova', sans-serif;
 }
