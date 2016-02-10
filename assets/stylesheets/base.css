@@ -128,44 +128,6 @@ body {
       .main h3 {
         font-size: 3.8em; } }
 
-.works {
-  margin-bottom: 30px;
-  text-align: center; }
-  @media (min-width: 1600px) and (max-width: 1900px) {
-    .works {
-      margin-bottom: 40px; } }
-  @media (min-width: 1900px) {
-    .works {
-      margin-bottom: 47px; } }
-  .works .my-works {
-    background-color: transparent;
-    border: 3px solid #fff;
-    color: #fff;
-    font-family: 'ProximaNovaXtraBold', sans-serif;
-    outline: none; }
-    .works .my-works:hover {
-      background-color: #fff;
-      color: #000;
-      cursor: pointer; }
-    @media (min-width: 1600px) and (max-width: 1900px) {
-      .works .my-works {
-        border-width: 4px; } }
-    @media (min-width: 1900px) {
-      .works .my-works {
-        border-width: 5px; } }
-  .works .btn-text {
-    font-size: 1.9em;
-    margin: 20px 40px; }
-    @media (max-width: 800px) {
-      .works .btn-text {
-        font-size: 1.47em; } }
-    @media (min-width: 1600px) and (max-width: 1900px) {
-      .works .btn-text {
-        font-size: 2.9em; } }
-    @media (min-width: 1900px) {
-      .works .btn-text {
-        font-size: 3.8em; } }
-
 .sm-wrap {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
