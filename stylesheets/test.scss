@@ -1,0 +1,46 @@
+@import 'modules/colours';
+
+section {
+	height: 100%;
+}
+
+// .test {
+// background-color: $dark-blue;
+// }
+
+.nav-top {
+	background-color: $white;
+	box-shadow: 0 0 5px lighten($black, 30%);
+	color: $black;
+	height: 50px;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+
+	ul {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		height: inherit;
+		justify-content: space-around;
+		list-style: none;
+		margin: 0 auto;
+		max-width: 700px;
+		width: 90%;
+	}
+}
+
+.test {
+	background: url('./../images/icons_white.svg') repeat;
+	// background-color: $red;
+	// height: 100%;
+}
+
+.test2 {
+	background: url('./../images/test.svg') repeat;
+	background-color: $white;
+	color: $black;
+	// background-color: $dark-blue;
+}

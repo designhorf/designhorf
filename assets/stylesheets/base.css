@@ -29,38 +29,30 @@ body {
   background-size: cover; }
 
 .wrap {
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-flex-wrap: nowrap;
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
   margin: 0 auto;
   width: 90%; }
 
 .header,
 .sm-wrap {
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-flex-wrap: nowrap;
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap; }
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; }
 
 .header {
   display: none;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   position: absolute;
   top: 30px;
   width: inherit; }
@@ -68,17 +60,14 @@ body {
     font-size: 1.2em;
     text-transform: uppercase; }
   .header .photo {
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-                -ms-grid-row-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
     display: inherit;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-flex-wrap: inherit;
-        -ms-flex-wrap: inherit;
-            flex-wrap: inherit; }
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-wrap: inherit;
+        flex-wrap: inherit; }
   .header .my-photos {
     font-size: .6em; }
 
@@ -130,9 +119,8 @@ body {
         font-size: 3.8em; } }
 
 .sm-wrap {
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  -ms-flex-pack: center;
+      justify-content: center; }
   .sm-wrap .sm-icon {
     margin: 0 15px; }
     @media (min-width: 1600px) and (max-width: 1900px) {
